@@ -1,0 +1,47 @@
+[INFO ] 2022-05-31 14:40:03.470 [main] BuggyCarsTestSteps - Verifying the page title
+[INFO ] 2022-05-31 14:40:03.553 [main] BuggyCarsTestSteps - Clicking on register link
+[INFO ] 2022-05-31 14:40:11.456 [main] BuggyCarsTestSteps - Registration completed
+[INFO ] 2022-05-31 14:40:11.457 [main] BuggyCarsTestSteps - Clicking on login button
+[INFO ] 2022-05-31 14:40:16.531 [main] BuggyCarsTestSteps - User is logged in
+[INFO ] 2022-05-31 14:40:16.533 [main] BuggyCarsTestSteps - Verifying user profile
+[INFO ] 2022-05-31 14:40:20.007 [main] BuggyCarsTestSteps - Profile validation completed
+[INFO ] 2022-05-31 14:40:20.351 [main] BuggyCarsTestSteps - Voting process started
+[INFO ] 2022-05-31 14:41:20.629 [main] BuggyCarsTestSteps - Voting is done
+[INFO ] 2022-05-31 15:08:39.821 [main] BuggyCarsTestSteps - Verifying the page title
+[INFO ] 2022-05-31 15:10:38.000 [main] BuggyCarsTestSteps - Verifying the page title
+[INFO ] 2022-05-31 15:10:38.165 [main] BuggyCarsTestSteps - Clicking on register link
+[INFO ] 2022-05-31 15:10:45.099 [main] BuggyCarsTestSteps - Registration completed
+[INFO ] 2022-05-31 15:10:45.100 [main] BuggyCarsTestSteps - Clicking on login button
+[INFO ] 2022-05-31 15:10:53.960 [main] BuggyCarsTestSteps - User is logged in
+[INFO ] 2022-05-31 15:10:53.962 [main] BuggyCarsTestSteps - Verifying user profile
+[INFO ] 2022-05-31 15:10:58.924 [main] BuggyCarsTestSteps - Profile validation completed
+[INFO ] 2022-05-31 15:10:59.354 [main] BuggyCarsTestSteps - Voting process started
+[INFO ] 2022-05-31 15:12:06.271 [main] BuggyCarsTestSteps - Voting is done
+[INFO ] 2022-05-31 15:13:27.594 [main] BuggyCarsTestSteps - Verifying the page title
+[INFO ] 2022-05-31 15:21:41.238 [main] BuggyCarsTestSteps - Verifying the page title
+[INFO ] 2022-05-31 15:21:41.720 [main] BuggyCarsTestSteps - Clicking on register link
+[INFO ] 2022-05-31 15:21:52.486 [main] BuggyCarsTestSteps - Registration completed
+[INFO ] 2022-05-31 15:21:52.492 [main] BuggyCarsTestSteps - Clicking on login button
+[INFO ] 2022-05-31 15:21:59.911 [main] BuggyCarsTestSteps - User is logged in
+[INFO ] 2022-05-31 15:21:59.921 [main] BuggyCarsTestSteps - Verifying user profile
+[INFO ] 2022-05-31 15:22:05.652 [main] BuggyCarsTestSteps - Profile validation completed
+[INFO ] 2022-05-31 15:22:06.149 [main] BuggyCarsTestSteps - Voting process started
+[INFO ] 2022-05-31 15:23:13.036 [main] BuggyCarsTestSteps - Voting is done
+[INFO ] 2022-05-31 16:38:35.601 [main] BuggyCarsTestSteps - Verifying the page title
+[INFO ] 2022-05-31 16:38:36.906 [main] BuggyCarsTestSteps - Clicking on register link
+[INFO ] 2022-05-31 16:39:01.870 [main] BuggyCarsTestSteps - Registration completed
+[INFO ] 2022-05-31 16:39:01.872 [main] BuggyCarsTestSteps - Clicking on login button
+[INFO ] 2022-05-31 16:39:08.836 [main] BuggyCarsTestSteps - User is logged in
+[INFO ] 2022-05-31 16:39:08.838 [main] BuggyCarsTestSteps - Verifying user profile
+[INFO ] 2022-05-31 16:39:15.898 [main] BuggyCarsTestSteps - Profile validation completed
+[INFO ] 2022-05-31 16:39:16.546 [main] BuggyCarsTestSteps - Voting process started
+[INFO ] 2022-05-31 16:39:58.068 [main] BuggyCarsTestSteps - Voting is done
+[INFO ] 2022-06-01 09:32:33.664 [main] BuggyCarsTestSteps - Verifying the page title
+[INFO ] 2022-06-01 09:32:33.689 [main] BuggyCarsTestSteps - Clicking on register link
+[INFO ] 2022-06-01 09:32:34.678 [main] BuggyCarsTestSteps - Registration completed
+[INFO ] 2022-06-01 09:32:34.679 [main] BuggyCarsTestSteps - Clicking on login button
+[INFO ] 2022-06-01 09:32:35.783 [main] BuggyCarsTestSteps - User is logged in
+[INFO ] 2022-06-01 09:32:35.784 [main] BuggyCarsTestSteps - Verifying user profile
+[INFO ] 2022-06-01 09:32:36.244 [main] BuggyCarsTestSteps - Profile validation completed
+[INFO ] 2022-06-01 09:32:36.295 [main] BuggyCarsTestSteps - Voting process started
+[INFO ] 2022-06-01 09:32:47.605 [main] BuggyCarsTestSteps - Voting is done
