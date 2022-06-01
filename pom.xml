@@ -1,6 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.sampleproject</groupId>
 	<artifactId>BuggyCars</artifactId>
@@ -15,7 +13,7 @@
 		<testng.version>7.1.0</testng.version>
 		<extentreports.version>4.0.8</extentreports.version>
 		<extentreports.adapter.version>1.0.3</extentreports.adapter.version>
-		<lombok.version>1.18.12</lombok.version>
+
 		<webdrivermanager.version>4.2.0</webdrivermanager.version>
 		<log4j.version>2.13.3</log4j.version>
 	</properties>
@@ -70,11 +68,7 @@
 			<artifactId>extentreports-testng-adapter</artifactId>
 			<version>${extentreports.adapter.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<version>${lombok.version}</version>
-		</dependency>
+
 		<dependency>
 			<groupId>io.github.bonigarcia</groupId>
 			<artifactId>webdrivermanager</artifactId>
@@ -109,5 +103,5 @@
 			<artifactId>log4j-api</artifactId>
 			<version>${log4j.version}</version>
 		</dependency>
-	</dependencies>	
+	</dependencies>
 </project>

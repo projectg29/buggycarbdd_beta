@@ -18,34 +18,29 @@ import com.buggy.report.ReportListener;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
-@Listeners({ExtentITestListenerClassAdapter.class, ReportListener.class})
+@Listeners({ ExtentITestListenerClassAdapter.class, ReportListener.class })
 public class BaseTest {
 
-    public static WebDriver driver;
-    public static DashboaedPage dashboardpage;
-    public static RegisterPage registrationpage;
-    public static VotingPage votingpage;
-    public static UserProfile userprofile;
-   
+	public static WebDriver driver;
+	public static DashboaedPage dashboardpage;
+	public static RegisterPage registrationpage;
+	public static VotingPage votingpage;
+	public static UserProfile userprofile;
 
-    public static WebDriver getDriver() {
-        return driver;
-    }
+	public static void setDriver(WebDriver driverParam) {
+		driver = driverParam;
+	}
 
-    
-    public void preCondition() {
-        driver = new DriverFactory().createInstance();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        driver.get(returnConfigValue("url.base"));
-        dashboardpage = new DashboaedPage(driver);   
-        registrationpage = new RegisterPage(driver);
-        votingpage = new VotingPage(driver);
-        userprofile = new UserProfile();
-    }
+	public static WebDriver getDriver() {
+		return driver;
+	}
 
-   
-    public void postCondition(){
-        driver.quit();
-    }
+	public static void initiatePages() {
+
+		dashboardpage = new DashboaedPage(driver);
+		registrationpage = new RegisterPage(driver);
+		votingpage = new VotingPage(driver);
+		userprofile = new UserProfile();
+	}
+
 }

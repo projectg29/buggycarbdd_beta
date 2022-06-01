@@ -26,9 +26,8 @@ public class RegisterPage {
 		driver.findElement(by).sendKeys(text);
 
 	}
-	
+
 	@FindBy(xpath = ".//div[@class='result alert alert-success']")
 	public WebElement registrationscuccuesmessageGetText;
-	
 
 }
