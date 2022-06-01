@@ -51,7 +51,9 @@
 * Run the maven clean and build
 
 ### How to execute tests ###
-* Execute from editor (Ecliplse or IntelliJ)
+* Can execute from editor (Ecliplse or IntelliJ)
 * Can right click POM.XML and run as maven build
-* Can run from /BuggyCarsProjectsBDD/src/test/java/com/automation/runner/CucumberRunnerTest.java
-* Can execute from feature file - /BuggyCarsProjectsBDD/src/test/resources/Features/BuggyCarRatingSmokeTests.feature
+* Can run from runner class, /BuggyCarsProjectsBDD/src/test/java/com/automation/runner/CucumberRunnerTest.java
+
+### Cannot run the tests through feature file ###
+* Cannot execute from feature file. It is designed to avoid mulitple times opening the browser
