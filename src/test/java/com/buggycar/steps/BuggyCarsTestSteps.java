@@ -146,8 +146,8 @@ public class BuggyCarsTestSteps extends BaseTest {
 
 	}
 
-	@Then("I verify the registration successfull message")
-	public void i_verify_the_registration_successfull_message() {
+	@Then("I verify the registration successful message")
+	public void i_verify_the_registration_successful_message() {
 
 		Assert.assertEquals(registrationpage.registrationscuccuesmessageGetText.getText().trim(),
 				"Registration is successful", "Registration message not matched");
@@ -162,8 +162,8 @@ public class BuggyCarsTestSteps extends BaseTest {
 
 	}
 
-	@Then("I verify the login successfull")
-	public void i_verify_the_login_successfull() {
+	@Then("I verify the login successful")
+	public void i_verify_the_login_successful() {
 
 		Assert.assertEquals(dashboardpage.lblNavItem.getText().trim(), "Hi, " + userprofile.getFirstName(),
 				"User name not matched");
@@ -208,8 +208,8 @@ public class BuggyCarsTestSteps extends BaseTest {
 
 	}
 
-	@Given("I clcik on Lamborghini	Diablo model car image")
-	public void i_clcik_on_Lamborghini_Diablo_model_car_image() {
+	@Given("I click on Lamborghini	Diablo model car image")
+	public void i_click_on_Lamborghini_Diablo_model_car_image() {
 		votingpage.clickOnDesiredCar("Lamborghini Diablo");
 
 	}
