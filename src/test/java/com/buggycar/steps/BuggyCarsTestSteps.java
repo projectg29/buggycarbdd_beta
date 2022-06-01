@@ -14,6 +14,7 @@ import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 
 public class BuggyCarsTestSteps extends BaseTest {
 	private static final Logger LOGGER = LogManager.getLogger();
@@ -100,22 +101,119 @@ public class BuggyCarsTestSteps extends BaseTest {
 		LOGGER.info("Voting is done");
 
 	}
-	
+
 	@Then("Verify the voters comment in the gridbox")
-	public void verifyVoterComment()
-	{
+	public void verifyVoterComment() {
 		Assert.assertEquals(votingpage.userComment.getText().trim(), "Voting done", " Voter user Comment not matched");
 
 	}
-	
+
 	@Then("click on the facebook icon and verify the new tab opened and return back")
-	public void verifyFbIcon()
-	{
+	public void verifyFbIcon() {
 		votingpage.iconFacebook.click();
-		ArrayList<String> tabs2 = new ArrayList<String> (driver.getWindowHandles());
-	    driver.switchTo().window(tabs2.get(1));
-	    driver.close();
-	    driver.switchTo().window(tabs2.get(0));
+		ArrayList<String> tabs2 = new ArrayList<String>(driver.getWindowHandles());
+		driver.switchTo().window(tabs2.get(1));
+		driver.switchTo().window(tabs2.get(0));
+	}
+
+	@Then("I click on Register button")
+	public void i_click_on_Register_button() {
+
+	}
+
+	@Then("I verify the registration successfull message")
+	public void i_verify_the_registration_successfull_message() {
+
+	}
+
+	@Given("I enter new username,Peter, ,Parker,Buggy@{int},Buggy@{int}")
+	public void i_enter_new_username_Peter_Parker_Buggy_Buggy(Integer int1, Integer int2) {
+
+	}
+
+	@Given("I enter username and Buggy@{int}")
+	public void i_enter_username_and_Buggy(Integer int1) {
+
+	}
+
+	@Then("I verify the login successfull")
+	public void i_verify_the_login_successfull() {
+
+	}
+
+	@Given("I click on Login button")
+	public void i_click_on_Login_button() {
+
+	}
+
+	@Then("I click on Profile button")
+	public void i_click_on_Profile_button() {
+
+	}
+
+	@Then("I should see the profile detail page")
+	public void i_should_see_the_profile_detail_page() {
+
+	}
+
+	@Then("I enter {int}, Mt roskill,{int}")
+	public void i_enter_Mt_roskill(Integer int1, Integer int2) {
+
+	}
+
+	@When("I click save button")
+	public void i_click_save_button() {
+
+	}
+
+	@When("I sholud see The profile has been saved successful message")
+	public void i_sholud_see_The_profile_has_been_saved_successful_message() {
+
+	}
+
+	@Then("I enter {int}, Mt Albert,{int}")
+	public void i_enter_Mt_Albert(Integer int1, Integer int2) {
+
+	}
+
+	@Given("I click on Overall Rating")
+	public void i_click_on_Overall_Rating() {
+
+	}
+
+	@Given("I clcik on Lamborghini	Diablo model car image")
+	public void i_clcik_on_Lamborghini_Diablo_model_car_image() {
+
+	}
+
+	@Then("I enter my comments and I click vote button")
+	public void i_enter_my_comments_and_I_click_vote_button() {
+
+	}
+
+	@Then("I verify vote number is increased")
+	public void i_verify_vote_number_is_increased() {
+
+	}
+
+	@Given("I click on facebook icon")
+	public void i_click_on_facebook_icon() {
+
+	}
+
+	@Given("I should see the new browser open and close")
+	public void i_should_see_the_new_browser_open_and_close() {
+
+	}
+
+	@Given("I click to Register button in the Dashboardpage")
+	public void i_click_to_Register_button_in_the_Dashboardpage() {
+
+	}
+
+	@Given("I enter new username,James, ,Bond,Buggy@{int},Buggy@{int}")
+	public void i_enter_new_username_James_Bond_Buggy_Buggy(Integer int1, Integer int2) {
+
 	}
 
 	@After

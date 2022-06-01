@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @CucumberOptions(
 
-		features = { "src/test/resources/Top5.feature" }, plugin = { "html:target/cucumber-html-report",
+		features = { "src/test/resources/Features" }, plugin = { "html:target/cucumber-html-report",
 				"json:target/cucumber.json" }, glue = { "com.buggycar.steps" }, strict = true, dryRun = false, 
 				tags= {"not @ignore"},
 		monochrome = true)
